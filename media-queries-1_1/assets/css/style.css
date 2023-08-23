@@ -1,0 +1,32 @@
+/* Nutze für "Medium devices (tablets, 768px and up)": @media (max-width: 768px) { ... }
+Nutze für "Small devices" (landscape phones, 576px and up)": @media (max-width: 576px) { ... } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* - startwert desktop version größer als 768px */
+img {
+  width: 30%;
+  height: auto;
+}
+/* - medium: 576px bis max 768px  */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 45%;
+  }
+}
+/* - small: bis max 576px */
+@media (max-width: 576px) {
+  .gallery img {
+    width: 100%;
+  }
+}

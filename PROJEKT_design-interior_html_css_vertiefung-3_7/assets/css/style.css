@@ -1,0 +1,56 @@
+@font-face {
+  font-family: AlegreyaSans;
+  src: url("../fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSC;
+  src: url("../fonts/Alegreya_SC/AlegreyaSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: NixieOne;
+  src: url("../fonts/Nixie_One/NixieOne-Regular.ttf");
+}
+
+/* * ---------- fonts ---------- */
+
+header {
+  font-family: NixieOne;
+}
+
+nav {
+  font-family: AlegreyaSC;
+}
+
+h2 {
+  font-family: AlegreyaSans;
+}
+
+h3 {
+  font-family: AlegreyaSans;
+}
+p,
+button {
+  font-family: Helvetica;
+}
+
+footer {
+  font-family: Helvetica;
+}
+
+/* * ---------- general style ---------- */
+
+header .icon {
+  width: 24px;
+  height: 28px;
+}
+
+.services .icon {
+  width: 60px;
+  height: 60px;
+}
+
+/* * mobile first: small max 576px */
+/* * medium 768px und größer */
+/* * large 992px und größer */
